@@ -4,6 +4,7 @@ public class euler21 {
 
 	
 	public static void main(String[] args) {
+		long s = System.currentTimeMillis();
 		int x = 0;
 	
 		for(int a = 1; a < 10000; a++) {
@@ -12,6 +13,8 @@ public class euler21 {
 			}
 		}
 		System.out.println(x);
+		long f = System.currentTimeMillis();
+		System.out.println(f-s+"ms");
 	}
 	
 	public static int ds(int a) {
