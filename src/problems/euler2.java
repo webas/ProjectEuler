@@ -17,8 +17,7 @@ public class euler2 {
 					M.add( Math.pow(a,b));
 				}
 			}
-		}
-		
+		}	
 		System.out.println(M.size());
 	}
 
